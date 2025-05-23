@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruslana Hair Care</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      color: #333;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #c85a5a;
+      text-decoration: none;
+    }
+
+    header {
+      background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .products img, .portfolio img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+
+    .products p, .portfolio p {
+      text-align: center;
+    }
+
+    .profile {
+      text-align: center;
+    }
+
+    .profile img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    footer {
+      background: #f5f5f5;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      header p {
+        font-size: 1em;
+      }
+
+      section {
+        padding: 40px 15px;
+      }
+
+      .products img, .portfolio img {
+        max-width: 100%;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 80px 15px;
+      }
+
+      header h1 {
+        font-size: 1.6em;
+      }
+
+      header p {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ruslana Hair Care</h1>
+  <p>Професійний догляд за волоссям та косметика від трихолога</p>
+</header>
+
+<section id="about" class="profile">
+  <h2>Про Руслану</h2>
+  <p>Руслана — сертифікований спеціаліст з догляду за волоссям, що працює в студії [Назва студії]. Має багаторічний досвід та сотні задоволених клієнтів.</p>
+  <img src="https://via.placeholder.com/180" alt="Руслана">
+</section>
+
+<section id="products">
+  <h2>Косметика</h2>
+  <div class="flex products">
+    <div>
+      <img src="https://via.placeholder.com/300" alt="Продукт 1">
+      <p><strong>Продукт 1</strong><br>Опис та ціна.</p>
+    </div>
+    <div>
+      <img src="https://via.placeholder.com/300" alt="Продукт 2">
+      <p><strong>Продукт 2</strong><br>Опис та ціна.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <h2>Портфоліо</h2>
+  <div class="flex portfolio">
+    <img src="https://via.placeholder.com/300" alt="Робота 1">
+    <img src="https://via.placeholder.com/300" alt="Робота 2">
+  </div>
+</section>
+
+<section id="contacts">
+  <h2>Контакти</h2>
+  <p>Instagram: <a href="https://www.instagram.com/ruslana_hair_/" target="_blank">@ruslana_hair_</a></p>
+  <p>Телефон: +38 (___) ___ __ __</p>
+</section>
+
+<footer>
+  &copy; 2025 Ruslana Hair Care. Всі права захищено.
+</footer>
+
+</body>
+</html>

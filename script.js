@@ -1,0 +1,1 @@
+console.log("Ruslana Hair Care site loaded");
